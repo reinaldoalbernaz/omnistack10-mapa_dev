@@ -6,7 +6,8 @@ const app = express();
 
 mongoosse.connect('mongodb+srv://kingnaldo:12345@kingnaldo-x22yb.gcp.mongodb.net/week10?retryWrites=true&w=majority', {
     useNewUrlParser: true,
-    useUnifiedTopology: true
+    useUnifiedTopology: true,
+    useCreateIndex: true
 });
 
 app.use(express.json()); // deve ser o primeiro para funcionar o JSON

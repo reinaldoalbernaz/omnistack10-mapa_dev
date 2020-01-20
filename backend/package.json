@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sobe": "nodemon src/index.js"
+    "go": "src/index.js nodemon "
   },
   "keywords": [],
   "author": "Reinaldo Albernaz",
